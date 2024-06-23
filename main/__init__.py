@@ -8,6 +8,5 @@ def read_conf(path):
 
 path = "./confs/cfg.json"
 conf = read_conf(path)
-print(conf)
 
 getLM.SetConfig.set(getLM.SetConfig, conf)
