@@ -6,7 +6,8 @@ def read_conf(path):
             conf_dict = json.load(json_file)
             return conf_dict
 
-path = "confs/cfg.json"
+path = "./confs/cfg.json"
 conf = read_conf(path)
+print(conf)
 
 getLM.SetConfig.set(getLM.SetConfig, conf)
