@@ -37,8 +37,3 @@ def complete(response):
     response.data = f"{res_data}\n for {ids_var}"
     print(response)
     return response
-
-
-
-if __name__ == "__main__":
-   app.run(host= '0.0.0.0')
